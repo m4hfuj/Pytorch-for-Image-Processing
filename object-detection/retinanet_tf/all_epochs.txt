@@ -1,0 +1,1949 @@
+156/156 [==============================] - 31s 186ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.30s).
+Accumulating evaluation results...
+DONE (t=0.07s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.003
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.008
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.001
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.008
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.006
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.101
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.108
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.111
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.011
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.182
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.315
+
+Epoch 1: mAP improved to 0.0026, saving model to trained_models/best_model/
+2154/2154 [==============================] - 211s 91ms/step - loss: 0.7379 - box_loss: 0.3371 - classification_loss: 0.4009 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 772.2563 - val_box_loss: 0.6139 - val_classification_loss: 771.6425 - val_percent_boxes_matched_with_anchor: 0.9650 - val_AP: 0.0026 - val_AP50: 0.0082 - val_AP75: 0.0012 - val_APs: 2.8934e-04 - val_APm: 0.0084 - val_APl: 0.0057 - val_ARmax1: 0.1007 - val_ARmax10: 0.1085 - val_ARmax100: 0.1109 - val_ARs: 0.0106 - val_ARm: 0.1819 - val_ARl: 0.3154
+Epoch 2/80
+156/156 [==============================] - 30s 192ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.28s).
+Accumulating evaluation results...
+DONE (t=0.06s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.021
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.067
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.006
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.006
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.054
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.014
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.169
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.192
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.209
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.029
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.175
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.452
+
+Epoch 2: mAP improved to 0.0212, saving model to trained_models/best_model/
+2154/2154 [==============================] - 202s 94ms/step - loss: 0.4599 - box_loss: 0.2203 - classification_loss: 0.2396 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 71.4721 - val_box_loss: 0.4138 - val_classification_loss: 71.0583 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.0212 - val_AP50: 0.0667 - val_AP75: 0.0060 - val_APs: 0.0059 - val_APm: 0.0539 - val_APl: 0.0137 - val_ARmax1: 0.1691 - val_ARmax10: 0.1922 - val_ARmax100: 0.2085 - val_ARs: 0.0289 - val_ARm: 0.1746 - val_ARl: 0.4516
+Epoch 3/80
+156/156 [==============================] - 28s 180ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.06s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.115
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.257
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.071
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.047
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.158
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.242
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.305
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.328
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.329
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.079
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.338
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.553
+
+Epoch 3: mAP improved to 0.1149, saving model to trained_models/best_model/
+2154/2154 [==============================] - 192s 89ms/step - loss: 0.3948 - box_loss: 0.1926 - classification_loss: 0.2022 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 1.0990 - val_box_loss: 0.2230 - val_classification_loss: 0.8760 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.1149 - val_AP50: 0.2571 - val_AP75: 0.0706 - val_APs: 0.0468 - val_APm: 0.1582 - val_APl: 0.2424 - val_ARmax1: 0.3052 - val_ARmax10: 0.3277 - val_ARmax100: 0.3293 - val_ARs: 0.0790 - val_ARm: 0.3377 - val_ARl: 0.5526
+Epoch 4/80
+156/156 [==============================] - 28s 180ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.19s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.114
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.307
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.037
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.104
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.171
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.175
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.323
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.343
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.347
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.108
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.343
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.461
+2154/2154 [==============================] - 192s 89ms/step - loss: 0.3549 - box_loss: 0.1777 - classification_loss: 0.1772 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 1.3465 - val_box_loss: 0.2046 - val_classification_loss: 1.1418 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.1140 - val_AP50: 0.3066 - val_AP75: 0.0372 - val_APs: 0.1045 - val_APm: 0.1715 - val_APl: 0.1746 - val_ARmax1: 0.3233 - val_ARmax10: 0.3428 - val_ARmax100: 0.3473 - val_ARs: 0.1082 - val_ARm: 0.3427 - val_ARl: 0.4609
+Epoch 5/80
+156/156 [==============================] - 28s 180ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.18s).
+Accumulating evaluation results...
+DONE (t=0.04s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.060
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.138
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.028
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.098
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.182
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.004
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.258
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.285
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.314
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.113
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.351
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.479
+2154/2154 [==============================] - 191s 88ms/step - loss: 0.3350 - box_loss: 0.1681 - classification_loss: 0.1668 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 14.1687 - val_box_loss: 0.3854 - val_classification_loss: 13.7833 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.0605 - val_AP50: 0.1380 - val_AP75: 0.0277 - val_APs: 0.0982 - val_APm: 0.1820 - val_APl: 0.0036 - val_ARmax1: 0.2583 - val_ARmax10: 0.2847 - val_ARmax100: 0.3137 - val_ARs: 0.1131 - val_ARm: 0.3506 - val_ARl: 0.4792
+Epoch 6/80
+156/156 [==============================] - 28s 180ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.07s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.117
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.253
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.069
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.125
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.200
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.060
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.333
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.369
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.370
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.145
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.378
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.576
+
+Epoch 6: mAP improved to 0.1169, saving model to trained_models/best_model/
+2154/2154 [==============================] - 192s 89ms/step - loss: 0.3075 - box_loss: 0.1578 - classification_loss: 0.1496 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 1.3373 - val_box_loss: 0.2078 - val_classification_loss: 1.1294 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.1169 - val_AP50: 0.2531 - val_AP75: 0.0687 - val_APs: 0.1249 - val_APm: 0.1996 - val_APl: 0.0597 - val_ARmax1: 0.3330 - val_ARmax10: 0.3693 - val_ARmax100: 0.3701 - val_ARs: 0.1453 - val_ARm: 0.3780 - val_ARl: 0.5761
+Epoch 7/80
+156/156 [==============================] - 28s 180ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.06s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.248
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.471
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.195
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.125
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.226
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.337
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.378
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.395
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.395
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.141
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.398
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.547
+
+Epoch 7: mAP improved to 0.2477, saving model to trained_models/best_model/
+2154/2154 [==============================] - 191s 88ms/step - loss: 0.3032 - box_loss: 0.1555 - classification_loss: 0.1477 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 0.9796 - val_box_loss: 0.1834 - val_classification_loss: 0.7963 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.2477 - val_AP50: 0.4707 - val_AP75: 0.1948 - val_APs: 0.1253 - val_APm: 0.2263 - val_APl: 0.3369 - val_ARmax1: 0.3783 - val_ARmax10: 0.3947 - val_ARmax100: 0.3947 - val_ARs: 0.1410 - val_ARm: 0.3975 - val_ARl: 0.5474
+Epoch 8/80
+156/156 [==============================] - 29s 188ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.06s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.303
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.621
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.225
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.124
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.264
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.477
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.381
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.386
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.386
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.135
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.396
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.513
+
+Epoch 8: mAP improved to 0.3031, saving model to trained_models/best_model/
+2154/2154 [==============================] - 199s 92ms/step - loss: 0.2905 - box_loss: 0.1531 - classification_loss: 0.1374 - percent_boxes_matched_with_anchor: 0.9662 - val_loss: 0.5831 - val_box_loss: 0.1755 - val_classification_loss: 0.4077 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.3031 - val_AP50: 0.6207 - val_AP75: 0.2248 - val_APs: 0.1235 - val_APm: 0.2645 - val_APl: 0.4772 - val_ARmax1: 0.3808 - val_ARmax10: 0.3860 - val_ARmax100: 0.3860 - val_ARs: 0.1352 - val_ARm: 0.3960 - val_ARl: 0.5130
+Epoch 9/80
+156/156 [==============================] - 29s 187ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.04s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.375
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.747
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.270
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.171
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.339
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.624
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.432
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.433
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.433
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.177
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.410
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.659
+
+Epoch 9: mAP improved to 0.3753, saving model to trained_models/best_model/
+2154/2154 [==============================] - 198s 92ms/step - loss: 0.2809 - box_loss: 0.1487 - classification_loss: 0.1322 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 0.4677 - val_box_loss: 0.1621 - val_classification_loss: 0.3056 - val_percent_boxes_matched_with_anchor: 0.9650 - val_AP: 0.3753 - val_AP50: 0.7472 - val_AP75: 0.2701 - val_APs: 0.1709 - val_APm: 0.3391 - val_APl: 0.6238 - val_ARmax1: 0.4320 - val_ARmax10: 0.4334 - val_ARmax100: 0.4334 - val_ARs: 0.1771 - val_ARm: 0.4101 - val_ARl: 0.6592
+Epoch 10/80
+156/156 [==============================] - 29s 186ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.397
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.741
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.321
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.164
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.425
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.551
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.453
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.455
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.455
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.183
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.502
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.589
+
+Epoch 10: mAP improved to 0.3968, saving model to trained_models/best_model/
+2154/2154 [==============================] - 196s 91ms/step - loss: 0.2664 - box_loss: 0.1442 - classification_loss: 0.1222 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 0.4551 - val_box_loss: 0.1467 - val_classification_loss: 0.3084 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.3968 - val_AP50: 0.7414 - val_AP75: 0.3213 - val_APs: 0.1638 - val_APm: 0.4252 - val_APl: 0.5506 - val_ARmax1: 0.4534 - val_ARmax10: 0.4555 - val_ARmax100: 0.4555 - val_ARs: 0.1829 - val_ARm: 0.5019 - val_ARl: 0.5885
+Epoch 11/80
+156/156 [==============================] - 29s 184ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.06s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.368
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.703
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.296
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.154
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.384
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.501
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.423
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.425
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.425
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.167
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.461
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.548
+2154/2154 [==============================] - 198s 92ms/step - loss: 0.2629 - box_loss: 0.1412 - classification_loss: 0.1217 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 0.6525 - val_box_loss: 0.1567 - val_classification_loss: 0.4958 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.3681 - val_AP50: 0.7030 - val_AP75: 0.2958 - val_APs: 0.1540 - val_APm: 0.3845 - val_APl: 0.5009 - val_ARmax1: 0.4226 - val_ARmax10: 0.4254 - val_ARmax100: 0.4254 - val_ARs: 0.1670 - val_ARm: 0.4614 - val_ARl: 0.5481
+Epoch 12/80
+156/156 [==============================] - 28s 181ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.07s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.209
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.372
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.196
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.109
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.220
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.297
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.406
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.408
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.410
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.146
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.438
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.614
+2154/2154 [==============================] - 191s 88ms/step - loss: 0.2646 - box_loss: 0.1432 - classification_loss: 0.1215 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 1.0195 - val_box_loss: 0.1515 - val_classification_loss: 0.8680 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.2091 - val_AP50: 0.3717 - val_AP75: 0.1963 - val_APs: 0.1086 - val_APm: 0.2204 - val_APl: 0.2973 - val_ARmax1: 0.4064 - val_ARmax10: 0.4084 - val_ARmax100: 0.4095 - val_ARs: 0.1458 - val_ARm: 0.4380 - val_ARl: 0.6141
+Epoch 13/80
+156/156 [==============================] - 29s 184ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.04s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.439
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.692
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.487
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.187
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.474
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.622
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.485
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.487
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.487
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.214
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.529
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.657
+
+Epoch 13: mAP improved to 0.4388, saving model to trained_models/best_model/
+2154/2154 [==============================] - 194s 90ms/step - loss: 0.2540 - box_loss: 0.1379 - classification_loss: 0.1161 - percent_boxes_matched_with_anchor: 0.9659 - val_loss: 0.5642 - val_box_loss: 0.1235 - val_classification_loss: 0.4407 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4388 - val_AP50: 0.6916 - val_AP75: 0.4875 - val_APs: 0.1870 - val_APm: 0.4737 - val_APl: 0.6223 - val_ARmax1: 0.4852 - val_ARmax10: 0.4870 - val_ARmax100: 0.4870 - val_ARs: 0.2144 - val_ARm: 0.5293 - val_ARl: 0.6566
+Epoch 14/80
+156/156 [==============================] - 28s 181ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.419
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.720
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.402
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.155
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.443
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.637
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.465
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.468
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.468
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.173
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.505
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.678
+2154/2154 [==============================] - 191s 88ms/step - loss: 0.2479 - box_loss: 0.1358 - classification_loss: 0.1121 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 0.5003 - val_box_loss: 0.1401 - val_classification_loss: 0.3601 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4191 - val_AP50: 0.7202 - val_AP75: 0.4020 - val_APs: 0.1553 - val_APm: 0.4432 - val_APl: 0.6371 - val_ARmax1: 0.4651 - val_ARmax10: 0.4681 - val_ARmax100: 0.4681 - val_ARs: 0.1729 - val_ARm: 0.5048 - val_ARl: 0.6780
+Epoch 15/80
+156/156 [==============================] - 29s 183ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.455
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.755
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.456
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.254
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.456
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.587
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.505
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.509
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.509
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.290
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.515
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.619
+
+Epoch 15: mAP improved to 0.4552, saving model to trained_models/best_model/
+2154/2154 [==============================] - 195s 90ms/step - loss: 0.2392 - box_loss: 0.1327 - classification_loss: 0.1065 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 0.4297 - val_box_loss: 0.1316 - val_classification_loss: 0.2981 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4552 - val_AP50: 0.7551 - val_AP75: 0.4557 - val_APs: 0.2536 - val_APm: 0.4565 - val_APl: 0.5870 - val_ARmax1: 0.5050 - val_ARmax10: 0.5088 - val_ARmax100: 0.5088 - val_ARs: 0.2898 - val_ARm: 0.5150 - val_ARl: 0.6194
+Epoch 16/80
+156/156 [==============================] - 29s 184ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.351
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.681
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.258
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.133
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.332
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.518
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.410
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.412
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.412
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.155
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.405
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.589
+2154/2154 [==============================] - 195s 90ms/step - loss: 0.2435 - box_loss: 0.1328 - classification_loss: 0.1107 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 0.7465 - val_box_loss: 0.1570 - val_classification_loss: 0.5895 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.3514 - val_AP50: 0.6814 - val_AP75: 0.2579 - val_APs: 0.1335 - val_APm: 0.3315 - val_APl: 0.5178 - val_ARmax1: 0.4097 - val_ARmax10: 0.4125 - val_ARmax100: 0.4125 - val_ARs: 0.1553 - val_ARm: 0.4047 - val_ARl: 0.5891
+Epoch 17/80
+156/156 [==============================] - 28s 182ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.399
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.752
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.350
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.229
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.432
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.560
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.465
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.470
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.470
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.252
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.510
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.604
+2154/2154 [==============================] - 197s 92ms/step - loss: 0.2338 - box_loss: 0.1294 - classification_loss: 0.1044 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 0.4796 - val_box_loss: 0.1559 - val_classification_loss: 0.3237 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.3985 - val_AP50: 0.7519 - val_AP75: 0.3504 - val_APs: 0.2290 - val_APm: 0.4317 - val_APl: 0.5603 - val_ARmax1: 0.4651 - val_ARmax10: 0.4697 - val_ARmax100: 0.4697 - val_ARs: 0.2517 - val_ARm: 0.5097 - val_ARl: 0.6036
+Epoch 18/80
+156/156 [==============================] - 28s 182ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.360
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.778
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.257
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.156
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.345
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.572
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.419
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.423
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.423
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.169
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.436
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.606
+2154/2154 [==============================] - 198s 92ms/step - loss: 0.2339 - box_loss: 0.1274 - classification_loss: 0.1066 - percent_boxes_matched_with_anchor: 0.9662 - val_loss: 0.4074 - val_box_loss: 0.1745 - val_classification_loss: 0.2329 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.3603 - val_AP50: 0.7776 - val_AP75: 0.2570 - val_APs: 0.1562 - val_APm: 0.3454 - val_APl: 0.5725 - val_ARmax1: 0.4186 - val_ARmax10: 0.4230 - val_ARmax100: 0.4230 - val_ARs: 0.1695 - val_ARm: 0.4363 - val_ARl: 0.6058
+Epoch 19/80
+156/156 [==============================] - 28s 181ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.381
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.775
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.268
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.215
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.361
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.482
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.441
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.443
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.443
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.241
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.433
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.538
+2154/2154 [==============================] - 198s 92ms/step - loss: 0.2261 - box_loss: 0.1259 - classification_loss: 0.1002 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 0.3530 - val_box_loss: 0.1643 - val_classification_loss: 0.1887 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.3813 - val_AP50: 0.7745 - val_AP75: 0.2682 - val_APs: 0.2152 - val_APm: 0.3607 - val_APl: 0.4821 - val_ARmax1: 0.4410 - val_ARmax10: 0.4428 - val_ARmax100: 0.4428 - val_ARs: 0.2407 - val_ARm: 0.4330 - val_ARl: 0.5375
+Epoch 20/80
+156/156 [==============================] - 28s 181ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.394
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.753
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.306
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.199
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.384
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.583
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.454
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.457
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.457
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.220
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.449
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.631
+2154/2154 [==============================] - 198s 92ms/step - loss: 0.2224 - box_loss: 0.1248 - classification_loss: 0.0976 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 0.4176 - val_box_loss: 0.1573 - val_classification_loss: 0.2603 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.3944 - val_AP50: 0.7532 - val_AP75: 0.3058 - val_APs: 0.1991 - val_APm: 0.3840 - val_APl: 0.5833 - val_ARmax1: 0.4542 - val_ARmax10: 0.4573 - val_ARmax100: 0.4573 - val_ARs: 0.2204 - val_ARm: 0.4488 - val_ARl: 0.6313
+Epoch 21/80
+156/156 [==============================] - 28s 180ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.469
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.782
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.470
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.246
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.493
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.664
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.520
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.524
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.524
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.277
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.559
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.696
+
+Epoch 21: mAP improved to 0.4690, saving model to trained_models/best_model/
+2154/2154 [==============================] - 198s 92ms/step - loss: 0.2265 - box_loss: 0.1248 - classification_loss: 0.1016 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 0.3346 - val_box_loss: 0.1200 - val_classification_loss: 0.2146 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4690 - val_AP50: 0.7817 - val_AP75: 0.4705 - val_APs: 0.2456 - val_APm: 0.4929 - val_APl: 0.6636 - val_ARmax1: 0.5199 - val_ARmax10: 0.5238 - val_ARmax100: 0.5238 - val_ARs: 0.2772 - val_ARm: 0.5590 - val_ARl: 0.6958
+Epoch 22/80
+156/156 [==============================] - 28s 181ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.367
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.719
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.288
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.182
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.403
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.478
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.424
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.427
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.427
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.199
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.466
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.530
+2154/2154 [==============================] - 198s 92ms/step - loss: 0.2160 - box_loss: 0.1218 - classification_loss: 0.0941 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 0.7258 - val_box_loss: 0.1647 - val_classification_loss: 0.5611 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.3674 - val_AP50: 0.7187 - val_AP75: 0.2884 - val_APs: 0.1819 - val_APm: 0.4034 - val_APl: 0.4780 - val_ARmax1: 0.4237 - val_ARmax10: 0.4266 - val_ARmax100: 0.4266 - val_ARs: 0.1986 - val_ARm: 0.4660 - val_ARl: 0.5297
+Epoch 23/80
+156/156 [==============================] - 28s 182ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.392
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.751
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.318
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.171
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.351
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.640
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.443
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.446
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.446
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.187
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.425
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.676
+2154/2154 [==============================] - 198s 92ms/step - loss: 0.2207 - box_loss: 0.1244 - classification_loss: 0.0964 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 0.3948 - val_box_loss: 0.1634 - val_classification_loss: 0.2314 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.3924 - val_AP50: 0.7507 - val_AP75: 0.3176 - val_APs: 0.1705 - val_APm: 0.3513 - val_APl: 0.6398 - val_ARmax1: 0.4428 - val_ARmax10: 0.4464 - val_ARmax100: 0.4464 - val_ARs: 0.1871 - val_ARm: 0.4254 - val_ARl: 0.6755
+Epoch 24/80
+156/156 [==============================] - 28s 181ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.366
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.759
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.257
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.197
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.329
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.515
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.428
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.432
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.432
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.220
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.414
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.573
+2154/2154 [==============================] - 198s 92ms/step - loss: 0.2144 - box_loss: 0.1211 - classification_loss: 0.0933 - percent_boxes_matched_with_anchor: 0.9662 - val_loss: 0.5022 - val_box_loss: 0.1706 - val_classification_loss: 0.3317 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.3660 - val_AP50: 0.7587 - val_AP75: 0.2572 - val_APs: 0.1965 - val_APm: 0.3287 - val_APl: 0.5146 - val_ARmax1: 0.4283 - val_ARmax10: 0.4320 - val_ARmax100: 0.4320 - val_ARs: 0.2200 - val_ARm: 0.4142 - val_ARl: 0.5734
+Epoch 25/80
+156/156 [==============================] - 28s 182ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.383
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.731
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.305
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.224
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.375
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.545
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.438
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.442
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.442
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.254
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.447
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.581
+2154/2154 [==============================] - 198s 92ms/step - loss: 0.2123 - box_loss: 0.1205 - classification_loss: 0.0918 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 0.8105 - val_box_loss: 0.1541 - val_classification_loss: 0.6564 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.3828 - val_AP50: 0.7308 - val_AP75: 0.3053 - val_APs: 0.2244 - val_APm: 0.3752 - val_APl: 0.5453 - val_ARmax1: 0.4382 - val_ARmax10: 0.4418 - val_ARmax100: 0.4418 - val_ARs: 0.2540 - val_ARm: 0.4474 - val_ARl: 0.5807
+Epoch 26/80
+156/156 [==============================] - 28s 182ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.399
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.685
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.374
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.180
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.402
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.636
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.450
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.456
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.456
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.204
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.463
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.681
+2154/2154 [==============================] - 198s 92ms/step - loss: 0.2135 - box_loss: 0.1190 - classification_loss: 0.0945 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 0.5958 - val_box_loss: 0.1328 - val_classification_loss: 0.4630 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.3986 - val_AP50: 0.6852 - val_AP75: 0.3738 - val_APs: 0.1802 - val_APm: 0.4021 - val_APl: 0.6361 - val_ARmax1: 0.4502 - val_ARmax10: 0.4557 - val_ARmax100: 0.4557 - val_ARs: 0.2043 - val_ARm: 0.4631 - val_ARl: 0.6807
+Epoch 27/80
+156/156 [==============================] - 28s 182ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.06s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.421
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.704
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.414
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.216
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.459
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.572
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.479
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.485
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.485
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.234
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.524
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.616
+2154/2154 [==============================] - 198s 92ms/step - loss: 0.2080 - box_loss: 0.1171 - classification_loss: 0.0909 - percent_boxes_matched_with_anchor: 0.9659 - val_loss: 0.7861 - val_box_loss: 0.1521 - val_classification_loss: 0.6340 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4206 - val_AP50: 0.7037 - val_AP75: 0.4143 - val_APs: 0.2160 - val_APm: 0.4592 - val_APl: 0.5725 - val_ARmax1: 0.4793 - val_ARmax10: 0.4850 - val_ARmax100: 0.4850 - val_ARs: 0.2341 - val_ARm: 0.5239 - val_ARl: 0.6165
+Epoch 28/80
+156/156 [==============================] - 28s 181ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.429
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.778
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.352
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.258
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.416
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.580
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.488
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.493
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.493
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.277
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.488
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.643
+2154/2154 [==============================] - 198s 92ms/step - loss: 0.2083 - box_loss: 0.1197 - classification_loss: 0.0886 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 0.4481 - val_box_loss: 0.1425 - val_classification_loss: 0.3055 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4288 - val_AP50: 0.7779 - val_AP75: 0.3523 - val_APs: 0.2580 - val_APm: 0.4159 - val_APl: 0.5804 - val_ARmax1: 0.4879 - val_ARmax10: 0.4929 - val_ARmax100: 0.4929 - val_ARs: 0.2765 - val_ARm: 0.4881 - val_ARl: 0.6432
+Epoch 29/80
+156/156 [==============================] - 28s 182ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.421
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.794
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.319
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.226
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.402
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.610
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.481
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.485
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.485
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.253
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.490
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.672
+2154/2154 [==============================] - 198s 92ms/step - loss: 0.2021 - box_loss: 0.1149 - classification_loss: 0.0872 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 0.4123 - val_box_loss: 0.1536 - val_classification_loss: 0.2587 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4210 - val_AP50: 0.7942 - val_AP75: 0.3186 - val_APs: 0.2257 - val_APm: 0.4020 - val_APl: 0.6096 - val_ARmax1: 0.4813 - val_ARmax10: 0.4855 - val_ARmax100: 0.4855 - val_ARs: 0.2528 - val_ARm: 0.4901 - val_ARl: 0.6718
+Epoch 30/80
+156/156 [==============================] - 28s 182ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.18s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.416
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.776
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.343
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.214
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.410
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.607
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.470
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.474
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.474
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.238
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.485
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.672
+2154/2154 [==============================] - 198s 92ms/step - loss: 0.2107 - box_loss: 0.1188 - classification_loss: 0.0919 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 0.4539 - val_box_loss: 0.1464 - val_classification_loss: 0.3075 - val_percent_boxes_matched_with_anchor: 0.9650 - val_AP: 0.4156 - val_AP50: 0.7759 - val_AP75: 0.3425 - val_APs: 0.2138 - val_APm: 0.4102 - val_APl: 0.6066 - val_ARmax1: 0.4697 - val_ARmax10: 0.4744 - val_ARmax100: 0.4744 - val_ARs: 0.2375 - val_ARm: 0.4855 - val_ARl: 0.6719
+Epoch 31/80
+156/156 [==============================] - 28s 182ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.430
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.803
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.357
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.246
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.410
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.614
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.489
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.493
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.493
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.272
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.490
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.655
+2154/2154 [==============================] - 198s 92ms/step - loss: 0.1982 - box_loss: 0.1144 - classification_loss: 0.0838 - percent_boxes_matched_with_anchor: 0.9662 - val_loss: 0.3144 - val_box_loss: 0.1422 - val_classification_loss: 0.1722 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4296 - val_AP50: 0.8026 - val_AP75: 0.3568 - val_APs: 0.2457 - val_APm: 0.4105 - val_APl: 0.6140 - val_ARmax1: 0.4891 - val_ARmax10: 0.4934 - val_ARmax100: 0.4934 - val_ARs: 0.2717 - val_ARm: 0.4901 - val_ARl: 0.6546
+Epoch 32/80
+156/156 [==============================] - 28s 182ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.391
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.752
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.294
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.166
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.371
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.589
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.449
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.453
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.453
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.183
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.453
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.648
+2154/2154 [==============================] - 198s 92ms/step - loss: 0.1975 - box_loss: 0.1146 - classification_loss: 0.0829 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 0.4236 - val_box_loss: 0.1459 - val_classification_loss: 0.2777 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.3910 - val_AP50: 0.7519 - val_AP75: 0.2938 - val_APs: 0.1663 - val_APm: 0.3707 - val_APl: 0.5889 - val_ARmax1: 0.4487 - val_ARmax10: 0.4534 - val_ARmax100: 0.4534 - val_ARs: 0.1833 - val_ARm: 0.4527 - val_ARl: 0.6484
+Epoch 33/80
+156/156 [==============================] - 28s 182ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.06s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.328
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.699
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.216
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.139
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.318
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.468
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.387
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.389
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.389
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.154
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.389
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.531
+2154/2154 [==============================] - 198s 92ms/step - loss: 0.2016 - box_loss: 0.1133 - classification_loss: 0.0882 - percent_boxes_matched_with_anchor: 0.9662 - val_loss: 1.6164 - val_box_loss: 0.1802 - val_classification_loss: 1.4362 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.3279 - val_AP50: 0.6995 - val_AP75: 0.2162 - val_APs: 0.1389 - val_APm: 0.3183 - val_APl: 0.4677 - val_ARmax1: 0.3865 - val_ARmax10: 0.3893 - val_ARmax100: 0.3893 - val_ARs: 0.1544 - val_ARm: 0.3886 - val_ARl: 0.5307
+Epoch 34/80
+156/156 [==============================] - 28s 182ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.428
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.754
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.372
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.191
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.409
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.607
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.477
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.481
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.481
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.212
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.478
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.643
+2154/2154 [==============================] - 198s 92ms/step - loss: 0.1964 - box_loss: 0.1134 - classification_loss: 0.0830 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 0.8978 - val_box_loss: 0.1432 - val_classification_loss: 0.7546 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4278 - val_AP50: 0.7542 - val_AP75: 0.3718 - val_APs: 0.1914 - val_APm: 0.4087 - val_APl: 0.6065 - val_ARmax1: 0.4773 - val_ARmax10: 0.4813 - val_ARmax100: 0.4813 - val_ARs: 0.2122 - val_ARm: 0.4777 - val_ARl: 0.6427
+Epoch 35/80
+156/156 [==============================] - 28s 182ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.433
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.824
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.327
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.239
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.394
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.559
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.488
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.493
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.493
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.259
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.476
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.584
+2154/2154 [==============================] - 198s 92ms/step - loss: 0.1898 - box_loss: 0.1099 - classification_loss: 0.0799 - percent_boxes_matched_with_anchor: 0.9662 - val_loss: 0.3693 - val_box_loss: 0.1478 - val_classification_loss: 0.2215 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4332 - val_AP50: 0.8242 - val_AP75: 0.3269 - val_APs: 0.2392 - val_APm: 0.3941 - val_APl: 0.5594 - val_ARmax1: 0.4884 - val_ARmax10: 0.4935 - val_ARmax100: 0.4935 - val_ARs: 0.2593 - val_ARm: 0.4758 - val_ARl: 0.5844
+Epoch 36/80
+156/156 [==============================] - 28s 182ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.468
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.780
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.457
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.273
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.449
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.686
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.520
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.527
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.527
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.302
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.524
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.715
+2154/2154 [==============================] - 198s 92ms/step - loss: 0.1966 - box_loss: 0.1132 - classification_loss: 0.0833 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 0.3543 - val_box_loss: 0.1223 - val_classification_loss: 0.2320 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4679 - val_AP50: 0.7802 - val_AP75: 0.4567 - val_APs: 0.2734 - val_APm: 0.4487 - val_APl: 0.6864 - val_ARmax1: 0.5204 - val_ARmax10: 0.5268 - val_ARmax100: 0.5268 - val_ARs: 0.3023 - val_ARm: 0.5243 - val_ARl: 0.7146
+Epoch 37/80
+156/156 [==============================] - 28s 182ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.06s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.473
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.780
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.494
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.259
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.457
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.725
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.524
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.530
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.530
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.288
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.524
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.750
+
+Epoch 37: mAP improved to 0.4728, saving model to trained_models/best_model/
+2154/2154 [==============================] - 198s 92ms/step - loss: 0.1939 - box_loss: 0.1126 - classification_loss: 0.0813 - percent_boxes_matched_with_anchor: 0.9659 - val_loss: 0.4163 - val_box_loss: 0.1177 - val_classification_loss: 0.2985 - val_percent_boxes_matched_with_anchor: 0.9650 - val_AP: 0.4728 - val_AP50: 0.7802 - val_AP75: 0.4936 - val_APs: 0.2591 - val_APm: 0.4571 - val_APl: 0.7245 - val_ARmax1: 0.5244 - val_ARmax10: 0.5296 - val_ARmax100: 0.5296 - val_ARs: 0.2884 - val_ARm: 0.5242 - val_ARl: 0.7500
+Epoch 38/80
+156/156 [==============================] - 28s 181ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.18s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.451
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.783
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.439
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.245
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.476
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.609
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.504
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.509
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.509
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.270
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.557
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.642
+2154/2154 [==============================] - 198s 92ms/step - loss: 0.1972 - box_loss: 0.1116 - classification_loss: 0.0855 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 0.3915 - val_box_loss: 0.1216 - val_classification_loss: 0.2699 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4512 - val_AP50: 0.7833 - val_AP75: 0.4394 - val_APs: 0.2448 - val_APm: 0.4763 - val_APl: 0.6085 - val_ARmax1: 0.5040 - val_ARmax10: 0.5094 - val_ARmax100: 0.5094 - val_ARs: 0.2698 - val_ARm: 0.5574 - val_ARl: 0.6422
+Epoch 39/80
+156/156 [==============================] - 29s 184ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.508
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.781
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.582
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.277
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.551
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.682
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.553
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.558
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.558
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.306
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.609
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.717
+
+Epoch 39: mAP improved to 0.5080, saving model to trained_models/best_model/
+2154/2154 [==============================] - 198s 92ms/step - loss: 0.1959 - box_loss: 0.1130 - classification_loss: 0.0829 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 0.4415 - val_box_loss: 0.1040 - val_classification_loss: 0.3375 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.5080 - val_AP50: 0.7811 - val_AP75: 0.5820 - val_APs: 0.2774 - val_APm: 0.5508 - val_APl: 0.6822 - val_ARmax1: 0.5529 - val_ARmax10: 0.5576 - val_ARmax100: 0.5576 - val_ARs: 0.3062 - val_ARm: 0.6090 - val_ARl: 0.7167
+Epoch 40/80
+156/156 [==============================] - 27s 175ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.333
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.705
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.216
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.154
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.287
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.455
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.388
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.393
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.393
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.174
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.353
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.492
+2154/2154 [==============================] - 189s 88ms/step - loss: 0.1913 - box_loss: 0.1114 - classification_loss: 0.0799 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 1.2042 - val_box_loss: 0.1715 - val_classification_loss: 1.0327 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.3330 - val_AP50: 0.7049 - val_AP75: 0.2162 - val_APs: 0.1536 - val_APm: 0.2866 - val_APl: 0.4548 - val_ARmax1: 0.3880 - val_ARmax10: 0.3927 - val_ARmax100: 0.3927 - val_ARs: 0.1742 - val_ARm: 0.3532 - val_ARl: 0.4925
+Epoch 41/80
+156/156 [==============================] - 28s 182ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.06s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.430
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.756
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.382
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.198
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.433
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.614
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.476
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.479
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.479
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.217
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.497
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.668
+2154/2154 [==============================] - 189s 87ms/step - loss: 0.1899 - box_loss: 0.1091 - classification_loss: 0.0808 - percent_boxes_matched_with_anchor: 0.9662 - val_loss: 0.9074 - val_box_loss: 0.1320 - val_classification_loss: 0.7754 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4297 - val_AP50: 0.7558 - val_AP75: 0.3819 - val_APs: 0.1984 - val_APm: 0.4334 - val_APl: 0.6142 - val_ARmax1: 0.4763 - val_ARmax10: 0.4795 - val_ARmax100: 0.4795 - val_ARs: 0.2172 - val_ARm: 0.4966 - val_ARl: 0.6682
+Epoch 42/80
+156/156 [==============================] - 27s 175ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.06s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.427
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.757
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.375
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.204
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.437
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.585
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.472
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.476
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.476
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.224
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.503
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.623
+2154/2154 [==============================] - 186s 86ms/step - loss: 0.1830 - box_loss: 0.1070 - classification_loss: 0.0761 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 0.6803 - val_box_loss: 0.1318 - val_classification_loss: 0.5485 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4272 - val_AP50: 0.7569 - val_AP75: 0.3755 - val_APs: 0.2041 - val_APm: 0.4372 - val_APl: 0.5851 - val_ARmax1: 0.4725 - val_ARmax10: 0.4760 - val_ARmax100: 0.4760 - val_ARs: 0.2236 - val_ARm: 0.5030 - val_ARl: 0.6229
+Epoch 43/80
+156/156 [==============================] - 28s 178ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.480
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.734
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.547
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.257
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.533
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.649
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.526
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.530
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.530
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.278
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.593
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.699
+2154/2154 [==============================] - 188s 87ms/step - loss: 0.1843 - box_loss: 0.1083 - classification_loss: 0.0760 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 0.9807 - val_box_loss: 0.1073 - val_classification_loss: 0.8734 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4803 - val_AP50: 0.7339 - val_AP75: 0.5467 - val_APs: 0.2572 - val_APm: 0.5332 - val_APl: 0.6488 - val_ARmax1: 0.5259 - val_ARmax10: 0.5298 - val_ARmax100: 0.5298 - val_ARs: 0.2781 - val_ARm: 0.5935 - val_ARl: 0.6995
+Epoch 44/80
+156/156 [==============================] - 27s 176ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.06s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.348
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.689
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.233
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.141
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.327
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.529
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.401
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.404
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.404
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.158
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.402
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.570
+2154/2154 [==============================] - 186s 86ms/step - loss: 0.1801 - box_loss: 0.1046 - classification_loss: 0.0755 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 0.9283 - val_box_loss: 0.1663 - val_classification_loss: 0.7620 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.3477 - val_AP50: 0.6892 - val_AP75: 0.2330 - val_APs: 0.1407 - val_APm: 0.3271 - val_APl: 0.5293 - val_ARmax1: 0.4013 - val_ARmax10: 0.4045 - val_ARmax100: 0.4045 - val_ARs: 0.1578 - val_ARm: 0.4023 - val_ARl: 0.5698
+Epoch 45/80
+156/156 [==============================] - 27s 175ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.06s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.396
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.705
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.344
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.168
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.377
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.645
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.447
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.451
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.451
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.196
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.447
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.679
+2154/2154 [==============================] - 185s 86ms/step - loss: 0.1836 - box_loss: 0.1066 - classification_loss: 0.0769 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 0.8579 - val_box_loss: 0.1390 - val_classification_loss: 0.7189 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.3956 - val_AP50: 0.7049 - val_AP75: 0.3443 - val_APs: 0.1679 - val_APm: 0.3769 - val_APl: 0.6452 - val_ARmax1: 0.4472 - val_ARmax10: 0.4513 - val_ARmax100: 0.4513 - val_ARs: 0.1963 - val_ARm: 0.4469 - val_ARl: 0.6786
+Epoch 46/80
+156/156 [==============================] - 28s 177ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.20s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.444
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.796
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.380
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.212
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.453
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.655
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.494
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.501
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.501
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.240
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.530
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.692
+2154/2154 [==============================] - 187s 87ms/step - loss: 0.1869 - box_loss: 0.1087 - classification_loss: 0.0782 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 0.4390 - val_box_loss: 0.1263 - val_classification_loss: 0.3126 - val_percent_boxes_matched_with_anchor: 0.9650 - val_AP: 0.4443 - val_AP50: 0.7965 - val_AP75: 0.3796 - val_APs: 0.2120 - val_APm: 0.4533 - val_APl: 0.6545 - val_ARmax1: 0.4942 - val_ARmax10: 0.5005 - val_ARmax100: 0.5005 - val_ARs: 0.2396 - val_ARm: 0.5296 - val_ARl: 0.6916
+Epoch 47/80
+156/156 [==============================] - 28s 178ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.457
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.754
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.466
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.259
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.464
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.681
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.507
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.515
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.515
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.291
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.532
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.726
+2154/2154 [==============================] - 187s 87ms/step - loss: 0.1802 - box_loss: 0.1057 - classification_loss: 0.0745 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 0.4209 - val_box_loss: 0.1204 - val_classification_loss: 0.3005 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4574 - val_AP50: 0.7541 - val_AP75: 0.4658 - val_APs: 0.2590 - val_APm: 0.4645 - val_APl: 0.6810 - val_ARmax1: 0.5072 - val_ARmax10: 0.5150 - val_ARmax100: 0.5150 - val_ARs: 0.2908 - val_ARm: 0.5325 - val_ARl: 0.7260
+Epoch 48/80
+156/156 [==============================] - 27s 176ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.399
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.769
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.295
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.175
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.404
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.534
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.451
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.457
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.457
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.192
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.486
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.587
+2154/2154 [==============================] - 185s 86ms/step - loss: 0.1831 - box_loss: 0.1071 - classification_loss: 0.0760 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 0.5830 - val_box_loss: 0.1513 - val_classification_loss: 0.4318 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.3992 - val_AP50: 0.7695 - val_AP75: 0.2947 - val_APs: 0.1748 - val_APm: 0.4036 - val_APl: 0.5341 - val_ARmax1: 0.4508 - val_ARmax10: 0.4570 - val_ARmax100: 0.4570 - val_ARs: 0.1919 - val_ARm: 0.4858 - val_ARl: 0.5875
+Epoch 49/80
+156/156 [==============================] - 28s 179ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.358
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.732
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.256
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.145
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.338
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.552
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.413
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.416
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.416
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.163
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.412
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.594
+2154/2154 [==============================] - 187s 87ms/step - loss: 0.1803 - box_loss: 0.1054 - classification_loss: 0.0749 - percent_boxes_matched_with_anchor: 0.9662 - val_loss: 0.5130 - val_box_loss: 0.1558 - val_classification_loss: 0.3573 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.3576 - val_AP50: 0.7324 - val_AP75: 0.2557 - val_APs: 0.1452 - val_APm: 0.3383 - val_APl: 0.5520 - val_ARmax1: 0.4125 - val_ARmax10: 0.4163 - val_ARmax100: 0.4163 - val_ARs: 0.1634 - val_ARm: 0.4121 - val_ARl: 0.5935
+Epoch 50/80
+156/156 [==============================] - 27s 175ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.455
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.798
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.469
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.169
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.465
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.664
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.506
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.511
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.511
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.184
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.548
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.706
+2154/2154 [==============================] - 186s 86ms/step - loss: 0.1742 - box_loss: 0.1017 - classification_loss: 0.0725 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 0.3022 - val_box_loss: 0.1259 - val_classification_loss: 0.1763 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4553 - val_AP50: 0.7980 - val_AP75: 0.4688 - val_APs: 0.1693 - val_APm: 0.4653 - val_APl: 0.6636 - val_ARmax1: 0.5059 - val_ARmax10: 0.5108 - val_ARmax100: 0.5108 - val_ARs: 0.1845 - val_ARm: 0.5480 - val_ARl: 0.7059
+Epoch 51/80
+156/156 [==============================] - 28s 178ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.411
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.771
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.323
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.206
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.391
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.632
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.467
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.471
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.471
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.226
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.472
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.668
+2154/2154 [==============================] - 187s 87ms/step - loss: 0.1780 - box_loss: 0.1051 - classification_loss: 0.0730 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 0.8374 - val_box_loss: 0.1521 - val_classification_loss: 0.6854 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4115 - val_AP50: 0.7711 - val_AP75: 0.3233 - val_APs: 0.2056 - val_APm: 0.3913 - val_APl: 0.6317 - val_ARmax1: 0.4669 - val_ARmax10: 0.4713 - val_ARmax100: 0.4713 - val_ARs: 0.2257 - val_ARm: 0.4725 - val_ARl: 0.6677
+Epoch 52/80
+156/156 [==============================] - 28s 177ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.06s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.396
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.742
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.297
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.221
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.394
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.496
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.463
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.467
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.467
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.252
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.479
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.543
+2154/2154 [==============================] - 187s 87ms/step - loss: 0.1746 - box_loss: 0.1039 - classification_loss: 0.0706 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 1.0878 - val_box_loss: 0.1548 - val_classification_loss: 0.9330 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.3959 - val_AP50: 0.7421 - val_AP75: 0.2975 - val_APs: 0.2209 - val_APm: 0.3943 - val_APl: 0.4963 - val_ARmax1: 0.4629 - val_ARmax10: 0.4671 - val_ARmax100: 0.4671 - val_ARs: 0.2516 - val_ARm: 0.4792 - val_ARl: 0.5427
+Epoch 53/80
+156/156 [==============================] - 27s 175ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.06s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.398
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.778
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.281
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.195
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.383
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.571
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.458
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.463
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.463
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.221
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.471
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.610
+2154/2154 [==============================] - 187s 87ms/step - loss: 0.1743 - box_loss: 0.1020 - classification_loss: 0.0722 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 0.5518 - val_box_loss: 0.1460 - val_classification_loss: 0.4058 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.3981 - val_AP50: 0.7785 - val_AP75: 0.2814 - val_APs: 0.1946 - val_APm: 0.3831 - val_APl: 0.5713 - val_ARmax1: 0.4576 - val_ARmax10: 0.4630 - val_ARmax100: 0.4630 - val_ARs: 0.2213 - val_ARm: 0.4707 - val_ARl: 0.6104
+Epoch 54/80
+156/156 [==============================] - 28s 179ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.19s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.385
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.769
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.292
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.160
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.353
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.669
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.437
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.443
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.443
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.184
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.435
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.712
+2154/2154 [==============================] - 186s 86ms/step - loss: 0.1740 - box_loss: 0.1011 - classification_loss: 0.0729 - percent_boxes_matched_with_anchor: 0.9662 - val_loss: 0.4786 - val_box_loss: 0.1497 - val_classification_loss: 0.3289 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.3848 - val_AP50: 0.7686 - val_AP75: 0.2919 - val_APs: 0.1601 - val_APm: 0.3531 - val_APl: 0.6694 - val_ARmax1: 0.4370 - val_ARmax10: 0.4429 - val_ARmax100: 0.4429 - val_ARs: 0.1837 - val_ARm: 0.4348 - val_ARl: 0.7125
+Epoch 55/80
+156/156 [==============================] - 27s 175ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.370
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.754
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.247
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.164
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.341
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.589
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.432
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.437
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.437
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.188
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.433
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.633
+2154/2154 [==============================] - 186s 86ms/step - loss: 0.1740 - box_loss: 0.1021 - classification_loss: 0.0719 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 0.9662 - val_box_loss: 0.1613 - val_classification_loss: 0.8049 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.3704 - val_AP50: 0.7539 - val_AP75: 0.2472 - val_APs: 0.1641 - val_APm: 0.3414 - val_APl: 0.5895 - val_ARmax1: 0.4322 - val_ARmax10: 0.4373 - val_ARmax100: 0.4373 - val_ARs: 0.1879 - val_ARm: 0.4331 - val_ARl: 0.6328
+Epoch 56/80
+156/156 [==============================] - 28s 181ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.06s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.419
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.779
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.335
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.204
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.417
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.643
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.477
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.481
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.481
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.232
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.507
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.699
+2154/2154 [==============================] - 187s 87ms/step - loss: 0.1772 - box_loss: 0.1051 - classification_loss: 0.0721 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 0.4238 - val_box_loss: 0.1292 - val_classification_loss: 0.2947 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4193 - val_AP50: 0.7789 - val_AP75: 0.3351 - val_APs: 0.2044 - val_APm: 0.4169 - val_APl: 0.6429 - val_ARmax1: 0.4771 - val_ARmax10: 0.4810 - val_ARmax100: 0.4810 - val_ARs: 0.2325 - val_ARm: 0.5072 - val_ARl: 0.6990
+Epoch 57/80
+156/156 [==============================] - 27s 176ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.06s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.423
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.758
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.370
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.208
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.455
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.638
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.476
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.481
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.481
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.230
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.527
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.683
+2154/2154 [==============================] - 186s 86ms/step - loss: 0.1700 - box_loss: 0.1014 - classification_loss: 0.0686 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 0.5601 - val_box_loss: 0.1333 - val_classification_loss: 0.4269 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4226 - val_AP50: 0.7582 - val_AP75: 0.3702 - val_APs: 0.2075 - val_APm: 0.4545 - val_APl: 0.6380 - val_ARmax1: 0.4759 - val_ARmax10: 0.4806 - val_ARmax100: 0.4806 - val_ARs: 0.2298 - val_ARm: 0.5270 - val_ARl: 0.6826
+Epoch 58/80
+156/156 [==============================] - 30s 189ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.384
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.795
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.243
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.221
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.352
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.581
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.445
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.448
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.448
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.244
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.440
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.617
+2154/2154 [==============================] - 192s 89ms/step - loss: 0.1695 - box_loss: 0.1013 - classification_loss: 0.0683 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 0.4399 - val_box_loss: 0.1633 - val_classification_loss: 0.2766 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.3841 - val_AP50: 0.7950 - val_AP75: 0.2425 - val_APs: 0.2213 - val_APm: 0.3520 - val_APl: 0.5813 - val_ARmax1: 0.4448 - val_ARmax10: 0.4483 - val_ARmax100: 0.4483 - val_ARs: 0.2443 - val_ARm: 0.4401 - val_ARl: 0.6167
+Epoch 59/80
+156/156 [==============================] - 29s 186ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.419
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.763
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.346
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.228
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.405
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.700
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.473
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.478
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.478
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.249
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.479
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.738
+2154/2154 [==============================] - 198s 92ms/step - loss: 0.1704 - box_loss: 0.1012 - classification_loss: 0.0692 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 0.5906 - val_box_loss: 0.1399 - val_classification_loss: 0.4507 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4186 - val_AP50: 0.7635 - val_AP75: 0.3459 - val_APs: 0.2276 - val_APm: 0.4045 - val_APl: 0.7003 - val_ARmax1: 0.4726 - val_ARmax10: 0.4783 - val_ARmax100: 0.4783 - val_ARs: 0.2489 - val_ARm: 0.4788 - val_ARl: 0.7384
+Epoch 60/80
+156/156 [==============================] - 29s 188ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.439
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.777
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.391
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.251
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.429
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.633
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.492
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.497
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.497
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.285
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.503
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.659
+2154/2154 [==============================] - 199s 92ms/step - loss: 0.1699 - box_loss: 0.1008 - classification_loss: 0.0691 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 0.4009 - val_box_loss: 0.1305 - val_classification_loss: 0.2704 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4387 - val_AP50: 0.7770 - val_AP75: 0.3912 - val_APs: 0.2507 - val_APm: 0.4290 - val_APl: 0.6331 - val_ARmax1: 0.4916 - val_ARmax10: 0.4969 - val_ARmax100: 0.4969 - val_ARs: 0.2851 - val_ARm: 0.5032 - val_ARl: 0.6593
+Epoch 61/80
+156/156 [==============================] - 30s 190ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.04s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.464
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.805
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.412
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.259
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.447
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.672
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.514
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.520
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.520
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.297
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.519
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.716
+2154/2154 [==============================] - 199s 92ms/step - loss: 0.1711 - box_loss: 0.1017 - classification_loss: 0.0694 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 0.3257 - val_box_loss: 0.1269 - val_classification_loss: 0.1988 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4638 - val_AP50: 0.8054 - val_AP75: 0.4123 - val_APs: 0.2593 - val_APm: 0.4466 - val_APl: 0.6720 - val_ARmax1: 0.5141 - val_ARmax10: 0.5196 - val_ARmax100: 0.5196 - val_ARs: 0.2972 - val_ARm: 0.5189 - val_ARl: 0.7161
+Epoch 62/80
+156/156 [==============================] - 30s 190ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.521
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.805
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.585
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.295
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.572
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.749
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.568
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.574
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.574
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.330
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.632
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.790
+
+Epoch 62: mAP improved to 0.5213, saving model to trained_models/best_model/
+2154/2154 [==============================] - 203s 94ms/step - loss: 0.1713 - box_loss: 0.1021 - classification_loss: 0.0692 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 0.2940 - val_box_loss: 0.1020 - val_classification_loss: 0.1921 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.5213 - val_AP50: 0.8049 - val_AP75: 0.5848 - val_APs: 0.2955 - val_APm: 0.5717 - val_APl: 0.7493 - val_ARmax1: 0.5684 - val_ARmax10: 0.5744 - val_ARmax100: 0.5744 - val_ARs: 0.3296 - val_ARm: 0.6322 - val_ARl: 0.7896
+Epoch 63/80
+156/156 [==============================] - 30s 189ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.19s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.396
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.780
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.282
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.235
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.403
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.584
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.462
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.467
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.467
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.270
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.479
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.658
+2154/2154 [==============================] - 201s 93ms/step - loss: 0.1679 - box_loss: 0.0996 - classification_loss: 0.0683 - percent_boxes_matched_with_anchor: 0.9662 - val_loss: 0.5166 - val_box_loss: 0.1644 - val_classification_loss: 0.3522 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.3963 - val_AP50: 0.7804 - val_AP75: 0.2816 - val_APs: 0.2352 - val_APm: 0.4033 - val_APl: 0.5843 - val_ARmax1: 0.4616 - val_ARmax10: 0.4672 - val_ARmax100: 0.4672 - val_ARs: 0.2704 - val_ARm: 0.4792 - val_ARl: 0.6579
+Epoch 64/80
+156/156 [==============================] - 30s 191ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.06s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.404
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.771
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.316
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.194
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.390
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.635
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.465
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.471
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.471
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.231
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.470
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.718
+2154/2154 [==============================] - 203s 94ms/step - loss: 0.1700 - box_loss: 0.1003 - classification_loss: 0.0697 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 0.6505 - val_box_loss: 0.1503 - val_classification_loss: 0.5001 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4045 - val_AP50: 0.7714 - val_AP75: 0.3160 - val_APs: 0.1942 - val_APm: 0.3902 - val_APl: 0.6346 - val_ARmax1: 0.4646 - val_ARmax10: 0.4714 - val_ARmax100: 0.4714 - val_ARs: 0.2311 - val_ARm: 0.4695 - val_ARl: 0.7182
+Epoch 65/80
+156/156 [==============================] - 29s 185ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.515
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.809
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.593
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.327
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.584
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.733
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.567
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.572
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.572
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.360
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.645
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.776
+2154/2154 [==============================] - 200s 93ms/step - loss: 0.1657 - box_loss: 0.0983 - classification_loss: 0.0673 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 0.3752 - val_box_loss: 0.1102 - val_classification_loss: 0.2650 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.5150 - val_AP50: 0.8089 - val_AP75: 0.5932 - val_APs: 0.3266 - val_APm: 0.5838 - val_APl: 0.7327 - val_ARmax1: 0.5668 - val_ARmax10: 0.5719 - val_ARmax100: 0.5719 - val_ARs: 0.3600 - val_ARm: 0.6447 - val_ARl: 0.7758
+Epoch 66/80
+156/156 [==============================] - 29s 186ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.284
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.701
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.169
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.125
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.214
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.529
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.353
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.357
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.357
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.146
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.296
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.599
+2154/2154 [==============================] - 197s 91ms/step - loss: 0.1641 - box_loss: 0.0981 - classification_loss: 0.0661 - percent_boxes_matched_with_anchor: 0.9659 - val_loss: 0.8441 - val_box_loss: 0.2111 - val_classification_loss: 0.6330 - val_percent_boxes_matched_with_anchor: 0.9650 - val_AP: 0.2843 - val_AP50: 0.7009 - val_AP75: 0.1686 - val_APs: 0.1252 - val_APm: 0.2136 - val_APl: 0.5286 - val_ARmax1: 0.3525 - val_ARmax10: 0.3568 - val_ARmax100: 0.3568 - val_ARs: 0.1459 - val_ARm: 0.2958 - val_ARl: 0.5986
+Epoch 67/80
+156/156 [==============================] - 30s 191ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.06s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.473
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.750
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.525
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.230
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.505
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.696
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.518
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.522
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.522
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.254
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.564
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.762
+2154/2154 [==============================] - 193s 89ms/step - loss: 0.1632 - box_loss: 0.0972 - classification_loss: 0.0660 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 0.9862 - val_box_loss: 0.1122 - val_classification_loss: 0.8740 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4731 - val_AP50: 0.7503 - val_AP75: 0.5250 - val_APs: 0.2297 - val_APm: 0.5051 - val_APl: 0.6958 - val_ARmax1: 0.5179 - val_ARmax10: 0.5221 - val_ARmax100: 0.5221 - val_ARs: 0.2543 - val_ARm: 0.5641 - val_ARl: 0.7620
+Epoch 68/80
+156/156 [==============================] - 29s 188ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.06s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.356
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.711
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.251
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.156
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.345
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.588
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.413
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.416
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.416
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.176
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.423
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.631
+2154/2154 [==============================] - 202s 94ms/step - loss: 0.1685 - box_loss: 0.0998 - classification_loss: 0.0687 - percent_boxes_matched_with_anchor: 0.9662 - val_loss: 0.9245 - val_box_loss: 0.1555 - val_classification_loss: 0.7690 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.3560 - val_AP50: 0.7112 - val_AP75: 0.2512 - val_APs: 0.1564 - val_APm: 0.3450 - val_APl: 0.5884 - val_ARmax1: 0.4127 - val_ARmax10: 0.4162 - val_ARmax100: 0.4162 - val_ARs: 0.1757 - val_ARm: 0.4228 - val_ARl: 0.6313
+Epoch 69/80
+156/156 [==============================] - 29s 186ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.504
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.763
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.615
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.297
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.543
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.724
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.551
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.556
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.556
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.329
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.595
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.764
+2154/2154 [==============================] - 199s 92ms/step - loss: 0.1656 - box_loss: 0.0991 - classification_loss: 0.0666 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 0.5741 - val_box_loss: 0.0962 - val_classification_loss: 0.4779 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.5045 - val_AP50: 0.7627 - val_AP75: 0.6146 - val_APs: 0.2969 - val_APm: 0.5431 - val_APl: 0.7236 - val_ARmax1: 0.5514 - val_ARmax10: 0.5557 - val_ARmax100: 0.5557 - val_ARs: 0.3289 - val_ARm: 0.5946 - val_ARl: 0.7635
+Epoch 70/80
+156/156 [==============================] - 29s 186ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.06s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.410
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.770
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.352
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.208
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.364
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.572
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.468
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.474
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.474
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.240
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.447
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.646
+2154/2154 [==============================] - 198s 92ms/step - loss: 0.1616 - box_loss: 0.0973 - classification_loss: 0.0642 - percent_boxes_matched_with_anchor: 0.9659 - val_loss: 0.4412 - val_box_loss: 0.1473 - val_classification_loss: 0.2939 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4103 - val_AP50: 0.7703 - val_AP75: 0.3519 - val_APs: 0.2076 - val_APm: 0.3642 - val_APl: 0.5718 - val_ARmax1: 0.4680 - val_ARmax10: 0.4741 - val_ARmax100: 0.4741 - val_ARs: 0.2396 - val_ARm: 0.4472 - val_ARl: 0.6458
+Epoch 71/80
+156/156 [==============================] - 29s 188ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.20s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.328
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.736
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.217
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.171
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.256
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.519
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.389
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.394
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.394
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.199
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.339
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.595
+2154/2154 [==============================] - 202s 94ms/step - loss: 0.1604 - box_loss: 0.0964 - classification_loss: 0.0640 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 0.6115 - val_box_loss: 0.1802 - val_classification_loss: 0.4313 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.3278 - val_AP50: 0.7358 - val_AP75: 0.2169 - val_APs: 0.1711 - val_APm: 0.2561 - val_APl: 0.5193 - val_ARmax1: 0.3886 - val_ARmax10: 0.3935 - val_ARmax100: 0.3935 - val_ARs: 0.1989 - val_ARm: 0.3388 - val_ARl: 0.5948
+Epoch 72/80
+156/156 [==============================] - 29s 187ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.06s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.462
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.791
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.468
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.236
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.488
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.620
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.511
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.517
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.517
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.267
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.556
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.671
+2154/2154 [==============================] - 197s 91ms/step - loss: 0.1643 - box_loss: 0.0987 - classification_loss: 0.0656 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 1.3410 - val_box_loss: 0.1278 - val_classification_loss: 1.2132 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4624 - val_AP50: 0.7910 - val_AP75: 0.4682 - val_APs: 0.2357 - val_APm: 0.4879 - val_APl: 0.6197 - val_ARmax1: 0.5106 - val_ARmax10: 0.5173 - val_ARmax100: 0.5173 - val_ARs: 0.2668 - val_ARm: 0.5560 - val_ARl: 0.6708
+Epoch 73/80
+156/156 [==============================] - 29s 189ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.428
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.793
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.359
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.197
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.425
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.694
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.482
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.489
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.489
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.218
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.511
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.747
+2154/2154 [==============================] - 199s 92ms/step - loss: 0.1537 - box_loss: 0.0926 - classification_loss: 0.0610 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 0.4742 - val_box_loss: 0.1438 - val_classification_loss: 0.3305 - val_percent_boxes_matched_with_anchor: 0.9650 - val_AP: 0.4284 - val_AP50: 0.7929 - val_AP75: 0.3592 - val_APs: 0.1968 - val_APm: 0.4249 - val_APl: 0.6936 - val_ARmax1: 0.4821 - val_ARmax10: 0.4891 - val_ARmax100: 0.4891 - val_ARs: 0.2180 - val_ARm: 0.5114 - val_ARl: 0.7468
+Epoch 74/80
+156/156 [==============================] - 30s 191ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.06s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.468
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.805
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.501
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.221
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.517
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.713
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.516
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.526
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.526
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.252
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.587
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.760
+2154/2154 [==============================] - 200s 93ms/step - loss: 0.1608 - box_loss: 0.0954 - classification_loss: 0.0654 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 0.5282 - val_box_loss: 0.1249 - val_classification_loss: 0.4034 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4678 - val_AP50: 0.8047 - val_AP75: 0.5010 - val_APs: 0.2213 - val_APm: 0.5167 - val_APl: 0.7127 - val_ARmax1: 0.5160 - val_ARmax10: 0.5257 - val_ARmax100: 0.5257 - val_ARs: 0.2525 - val_ARm: 0.5871 - val_ARl: 0.7598
+Epoch 75/80
+156/156 [==============================] - 29s 187ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.424
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.769
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.384
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.217
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.427
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.635
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.483
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.487
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.487
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.244
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.500
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.678
+2154/2154 [==============================] - 202s 94ms/step - loss: 0.1595 - box_loss: 0.0968 - classification_loss: 0.0627 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 0.8141 - val_box_loss: 0.1393 - val_classification_loss: 0.6748 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4239 - val_AP50: 0.7691 - val_AP75: 0.3843 - val_APs: 0.2170 - val_APm: 0.4273 - val_APl: 0.6352 - val_ARmax1: 0.4827 - val_ARmax10: 0.4872 - val_ARmax100: 0.4872 - val_ARs: 0.2442 - val_ARm: 0.5002 - val_ARl: 0.6781
+Epoch 76/80
+156/156 [==============================] - 29s 187ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.06s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.498
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.800
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.508
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.278
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.535
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.697
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.543
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.549
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.549
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.300
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.599
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.749
+2154/2154 [==============================] - 197s 92ms/step - loss: 0.1609 - box_loss: 0.0946 - classification_loss: 0.0662 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 0.5273 - val_box_loss: 0.1184 - val_classification_loss: 0.4089 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4985 - val_AP50: 0.7998 - val_AP75: 0.5076 - val_APs: 0.2784 - val_APm: 0.5352 - val_APl: 0.6972 - val_ARmax1: 0.5429 - val_ARmax10: 0.5494 - val_ARmax100: 0.5494 - val_ARs: 0.2997 - val_ARm: 0.5987 - val_ARl: 0.7489
+Epoch 77/80
+156/156 [==============================] - 28s 176ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.398
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.816
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.275
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.230
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.370
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.585
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.456
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.464
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.464
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.262
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.455
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.652
+2154/2154 [==============================] - 190s 88ms/step - loss: 0.1562 - box_loss: 0.0949 - classification_loss: 0.0612 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 0.5363 - val_box_loss: 0.1591 - val_classification_loss: 0.3773 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.3976 - val_AP50: 0.8158 - val_AP75: 0.2745 - val_APs: 0.2299 - val_APm: 0.3697 - val_APl: 0.5854 - val_ARmax1: 0.4563 - val_ARmax10: 0.4644 - val_ARmax100: 0.4644 - val_ARs: 0.2623 - val_ARm: 0.4555 - val_ARl: 0.6523
+Epoch 78/80
+156/156 [==============================] - 28s 176ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.533
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.836
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.600
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.354
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.570
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.732
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.580
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.587
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.587
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.386
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.636
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.795
+
+Epoch 78: mAP improved to 0.5326, saving model to trained_models/best_model/
+2154/2154 [==============================] - 187s 87ms/step - loss: 0.1546 - box_loss: 0.0931 - classification_loss: 0.0615 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 0.3098 - val_box_loss: 0.1018 - val_classification_loss: 0.2080 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.5326 - val_AP50: 0.8357 - val_AP75: 0.6000 - val_APs: 0.3543 - val_APm: 0.5699 - val_APl: 0.7321 - val_ARmax1: 0.5805 - val_ARmax10: 0.5866 - val_ARmax100: 0.5866 - val_ARs: 0.3860 - val_ARm: 0.6359 - val_ARl: 0.7953
+Epoch 79/80
+156/156 [==============================] - 27s 172ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.19s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.522
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.841
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.566
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.342
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.540
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.704
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.573
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.580
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.580
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.375
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.608
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.769
+2154/2154 [==============================] - 185s 86ms/step - loss: 0.1593 - box_loss: 0.0957 - classification_loss: 0.0637 - percent_boxes_matched_with_anchor: 0.9661 - val_loss: 0.3416 - val_box_loss: 0.1082 - val_classification_loss: 0.2333 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.5224 - val_AP50: 0.8406 - val_AP75: 0.5662 - val_APs: 0.3424 - val_APm: 0.5401 - val_APl: 0.7041 - val_ARmax1: 0.5733 - val_ARmax10: 0.5802 - val_ARmax100: 0.5802 - val_ARs: 0.3752 - val_ARm: 0.6076 - val_ARl: 0.7693
+Epoch 80/80
+156/156 [==============================] - 27s 172ms/step
+creating index...
+index created!
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.06s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.432
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.804
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.341
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.222
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.426
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.664
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.489
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.495
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.495
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.251
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.511
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.719
+2154/2154 [==============================] - 182s 85ms/step - loss: 0.1577 - box_loss: 0.0945 - classification_loss: 0.0632 - percent_boxes_matched_with_anchor: 0.9660 - val_loss: 0.3985 - val_box_loss: 0.1389 - val_classification_loss: 0.2596 - val_percent_boxes_matched_with_anchor: 0.9649 - val_AP: 0.4321 - val_AP50: 0.8043 - val_AP75: 0.3408 - val_APs: 0.2223 - val_APm: 0.4259 - val_APl: 0.6644 - val_ARmax1: 0.4894 - val_ARmax10: 0.4950 - val_ARmax100: 0.4950 - val_ARs: 0.2514 - val_ARm: 0.5110 - val_ARl: 0.7188
